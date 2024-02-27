@@ -1,0 +1,131 @@
+/* Resetting some default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f8f8f8;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.logo {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.intro {
+  font-size: 18px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.about-section {
+  background-color: #fff;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.about-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-content img {
+  border-radius: 50%;
+  width: 200px;
+  margin-right: 40px;
+}
+
+.bio {
+  text-align: left;
+}
+
+.skills-section {
+  background-color: #f9f9f9;
+  padding: 60px 0;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.skill {
+  width: 200px;
+  margin: 20px;
+  text-align: center;
+}
+
+.skill h3 {
+  margin-bottom: 10px;
+}
+
+.skill-bar {
+  background-color: #ddd;
+  height: 20px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.skill-level {
+  background-color: #007bff;
+  color: #fff;
+  height: 100%;
+  border-radius: 10px;
+  width: 90%;
+  line-height: 20px;
+}
+
+.projects-section {
+  padding: 60px 0;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.project img {
+  max-width: 300px;
+  margin-right: 40px;
+  border-radius: 10px;
+}
+
+.project-info {
+  flex: 
+}
